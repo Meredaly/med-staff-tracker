@@ -1,0 +1,30 @@
+{
+  "doctors": [
+    { "id": 1, "full_name": "Иванов Иван Иванович", "department_id": 1, "is_head": true },
+    { "id": 2, "full_name": "Петров Петр Петрович", "department_id": 1, "is_head": false },
+    { "id": 3, "full_name": "Сидоров Сергей Сергеевич", "department_id": 1, "is_head": false },
+    { "id": 4, "full_name": "Козлова Анна Викторовна", "department_id": 1, "is_head": false },
+    { "id": 5, "full_name": "Смирнов Олег Юрьевич", "department_id": 1, "is_head": false },
+    { "id": 6, "full_name": "Морозов Дмитрий Николаевич", "department_id": 2, "is_head": true },
+    { "id": 7, "full_name": "Зайцев Алексей Павлович", "department_id": 2, "is_head": false },
+    { "id": 8, "full_name": "Волкова Мария Сергеевна", "department_id": 2, "is_head": false },
+    { "id": 9, "full_name": "Соловьев Николай Андреевич", "department_id": 2, "is_head": false },
+    { "id": 10, "full_name": "Васильева Татьяна Анатольевна", "department_id": 2, "is_head": false }
+  ],
+  "nurses": [
+    { "id": 1, "full_name": "Семенова Ольга Ивановна", "department_id": 1 },
+    { "id": 2, "full_name": "Кузнецова Екатерина Викторовна", "department_id": 1 },
+    { "id": 3, "full_name": "Васильева Марина Николаевна", "department_id": 1 },
+    { "id": 4, "full_name": "Алексеева Дарья Михайловна", "department_id": 1 },
+    { "id": 5, "full_name": "Федорова Наталья Андреевна", "department_id": 1 },
+    { "id": 6, "full_name": "Михайлова Светлана Дмитриевна", "department_id": 2 },
+    { "id": 7, "full_name": "Романова Ирина Сергеевна", "department_id": 2 },
+    { "id": 8, "full_name": "Артемьева Оксана Юрьевна", "department_id": 2 },
+    { "id": 9, "full_name": "Григорьева Елена Павловна", "department_id": 2 },
+    { "id": 10, "full_name": "Тихонова Лариса Владимировна", "department_id": 2 }
+  ],
+  "departments": [
+    { "id": 1, "name": "Кардиология" },
+    { "id": 2, "name": "Хирургия" }
+  ]
+}
